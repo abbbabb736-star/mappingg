@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Hind Siliguri;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__list ul {
+  gap: 50px;
+  display: flex;
+}
+.nav__list ul li {
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 30px;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.nav__list ul li:hover {
+  background: #247cc0;
+  color: white;
+  transform: translateY(-3px);
+}
+.nav__items {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.nav__items img {
+  transition: all 0.3s ease-in-out;
+}
+.nav__items img:hover {
+  filter: drop-shadow(0 0 4px #247cc0);
+  transform: translateY(-3px);
+}
+
+.hero__wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.hero__titles p:nth-child(1) {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 14.5%;
+  text-transform: uppercase;
+  color: rgba(199, 37, 53, 0.7254901961);
+}
+.hero__titles p:nth-child(3) {
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(3, 13, 21, 0.4862745098);
+}
+.hero h1 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 81.2px;
+}
+.hero h1 span {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 55px;
+  padding: 0 12px;
+  background: rgba(36, 124, 192, 0.1450980392);
+  color: #247cc0;
+}
+.hero__buttons {
+  display: flex;
+  margin-top: 30px;
+  gap: 25px;
+  align-items: center;
+}
+.hero__buttons p:nth-child(3) {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 0;
+  text-align: center;
+  text-decoration: line-through;
+  color: rgba(3, 13, 21, 0.4862745098);
+}
+.hero__buttons p:nth-child(2) {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+.hero__buttons button {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #247cc0;
+  padding: 10px 30px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.hero__buttons button:hover {
+  filter: drop-shadow(0 0 4px #247cc0);
+  transform: translateY(-3px);
+}/*# sourceMappingURL=index.css.map */
